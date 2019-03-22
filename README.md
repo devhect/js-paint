@@ -1,1 +1,1 @@
-# js-paint
+A paint program utilizing JavaScript.
