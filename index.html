@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JS Paint</title>
 </head>
 <body>
-    
-    <input type="button" value="click" onclick="msg()"/>
-
-
-    <script type="text/javascript" src="message.js"></script> 
+    <header>
+        <h1>JS Paint</h1>
+    </header>
+    <div class="column-layout">
+        <div class="sidebar-left">
+                <p>column-left</p>
+        </div>
+        <div class="main-column">
+            <p>colum-center</p>
+        </div>
+        <div class="sidebar-right">
+            <!-- <h2>Paintbrush</h2> -->
+            <input type="radio" name="mode" value="red"> Red<br>
+            <input type="radio" name="mode" value="green"> Green<br>
+            <input type="radio" name="mode" value="blue"> Blue<br>
+            <input type="radio" name="mode" value="black"> Black<br>
+            <input type="radio" name="mode" value="white"> White<br>
+            <input type="radio" name="mode" value="random"> Random<br>
+        </div>
+    </div>
+    <footer>
+        <button id="resizeGridButton" class="selection">Resize</button>
+        <button id="resetGridButton" class="selection">Reset</button>
+    <footer>
+    <script type="text/javascript" src="script.js"></script> 
 </body>
 </html>
