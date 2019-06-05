@@ -1,8 +1,40 @@
-body {
-    background-color: rgb(125, 200, 225);
-  }
+/* body {  
+
+} */
+
+header, footer{
+  text-align: center;
+  padding: 10px;
+}
+
+.column-layout{
+  display: flex;
+  padding: 10px;
   
-  h1 {
-    color: rgb(0, 0, 100);
-    margin-left: 20px;
-  }
+  background-color: red;
+}
+
+.main-column{
+  flex: 2 1 auto;
+  background-color: green;
+}
+
+.sidebar-left{
+  flex: 1 1 auto;
+  background-color: blue;
+}
+
+.sidebar-right{
+  flex: 1 1 auto;
+  background-color: yellow;
+}
+
+
+
+/* .selection{
+    
+}
+
+.selection:hover{
+    
+} */
